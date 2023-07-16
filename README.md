@@ -1,7 +1,5 @@
 # Degen Gaming ERC20 Token
 
-![Degen Gaming](https://example.com/degen-gaming-logo.png)
-
 Welcome to the Degen Gaming ERC20 Token repository! This smart contract provides essential functionality for Degen Gaming, including minting, transferring, redeeming, checking balances, and burning tokens.
 
 ## Contract Details
