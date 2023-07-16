@@ -1,39 +1,43 @@
-# Degen Token
+# Degen Gaming ERC20 Token
 
-Degen Token is an ERC20 token contract provides basic token functionality such as minting, transferring, burning, and redeeming tokens. The token can be used in the context of Degen Gaming, where players can earn tokens as rewards and redeem them for in-game items.
+![Degen Gaming](https://example.com/degen-gaming-logo.png)
 
-## Features
+Welcome to the Degen Gaming ERC20 Token repository! This smart contract provides essential functionality for Degen Gaming, including minting, transferring, redeeming, checking balances, and burning tokens.
 
-The Degen Token contract includes the following features:
+## Contract Details
 
-1. Minting New Tokens: The platform owner can create and distribute new tokens to players as rewards.
+- **Token Name:** Degen Token
+- **Token Symbol:** DGN
 
-2. Transferring Tokens: Players can transfer their tokens to other addresses.
+## Functions
 
-3. Burning Tokens: Anyone can burn their own tokens if they are no longer needed.
+1. **Minting New Tokens**: As the contract owner, you have the power to mint new tokens. Simply call the `mint` function and specify the recipient's address and the desired token amount.
 
-4. Redeeming Tokens: Players can redeem their tokens for in-game items by providing the item ID and the required token balance.
+2. **Transferring Tokens**: Players can transfer their tokens to others effortlessly using the `transfer` function. Just provide the recipient's address and the token amount to be transferred.
 
-5. Checking Token Balance: Players can check their token balance at any time.
+3. **Redeeming Tokens**: Excitingly, players can redeem their tokens for exclusive in-game items from the in-game store. To do this, call the `redeem` function and specify the item to be redeemed. (Additional item redemption logic can be added to the contract.)
 
-## Usage
+4. **Checking Token Balance**: Players can easily check their token balance at any time using the `balanceOf` function. Simply provide your account address to retrieve the balance.
 
-To use the Degen Token contract, follow these guidelines:
+5. **Burning Tokens**: Need to get rid of some tokens? No worries! Anyone can burn their own tokens by calling the `burn` function and specifying the amount to be burned.
 
-1. Minting Tokens: Only the owner can mint new tokens. Use the `mint` function and provide the recipient's address and the amount of tokens to be minted.
+## Deployment
 
-2. Transferring Tokens: Players can transfer their tokens to other addresses using the `transfer` function. Specify the recipient's address and the amount of tokens to be transferred.
+To deploy the contract in your local development environment:
 
-3. Burning Tokens: Anyone can burn their own tokens using the `burn` function. Provide the amount of tokens to be burned.
+1. Write the contract using Remix or any Solidity development environment.
+2. Add a network account on Metamask and ensure it has enough AVAX (Avalanche native currency).
+3. Select the "Injected Provider" as the environment in Remix.
+4. Deploy the contract using Metamask to interact with the Avalanche network.
+5. To verify the contract's deployment, copy the contract address and paste it into "Snowtrace Fauji Testnet" or any other relevant platform for verification.
 
-4. Redeeming Tokens: Players can redeem their tokens for in-game items using the `redeemItem` function. Specify the item ID and the required token balance. The tokens will be deducted automatically.
-
-5. Checking Token Balance: Players can check their token balance using the `balanceOf` function.
-
-## Contributing
-
-Contributions to the Degen Token project are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on GitHub.
+## Checking on Snowtrace Testnet
+ Use these easy steps to check that the ERC20 token contract has been deployed on the Snowtrace Testnet:
+1. Launch a web browser and go to the [Snowtrace](https://testnet.snowtrace.io/) page.
+2. Enter the contract address you acquired from the Remix IDE when you deployed the contract in the search field on the Snowtrace explorer.
+3. To get comprehensive information about the deployed ERC20 token contract, press Enter or click the search icon.
+4. You will now have full access to the contract's information, including token balances, transactions, and other relevant data.
 
 ## License
 
-The Degen Token project is licensed under the MIT License. See the `LICENSE` file for more information.
+The Degen Gaming ERC20 Token project is licensed under the MIT License. See the LICENSE file for more information.
